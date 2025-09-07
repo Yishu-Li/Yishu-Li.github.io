@@ -1,17 +1,16 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Graduate Researcher @ [BrainGate Team](https://www.braingate.org), [Brown University](https://www.brown.edu)
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>131 Waterman Street</p>
+    <p>Providence, RI 02912</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +26,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi, this is Yishu. I'm a master's student in Biomedical Engineering at Brown University, working with the BrainGate team on intracortical Brain-computer interfaces (iBCIs) under the supervision of [Dr. John Simeral](https://vivo.brown.edu/display/jsimeral). I graduated from the Biomedical Engineering department in the [Southern University of Science and Technology](https://www.sustech.edu.cn) (SUSTech) in June, 2023. I also worked as an algorithm intern at the [Shanghai Institute of Microsystem and Information Technology, Chinese Academy of Sciences](www.sim.cas.cn) between 2023 and 2024.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I'm currently working on designing long-term stable brain-computer interface decoding algorithms for function restorations. I'm generally interested in neuroscience, deep learning, and dynamical systems. More specifically, I'm interested in developing plug-and-play (PNP) neural decoders that are robust to neural non-stationarity by combining the neuroscience knowledge (such as neural dynamics) and engineering methods (such as meta-learning, foundation models).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I'm looking for both Ph.D. and industrial opening starting from July 2026.
