@@ -30,4 +30,4 @@ Hi, this is Yishu. I'm a master's student in Biomedical Engineering at Brown Uni
 
 I'm currently working on designing long-term stable brain-computer interface decoding algorithms for function restorations. I'm generally interested in neuroscience, deep learning, and dynamical systems. More specifically, I'm interested in developing plug-and-play (PNP) neural decoders that are robust to neural non-stationarity by combining the neuroscience knowledge (such as neural dynamics) and engineering methods (such as meta-learning, foundation models).
 
-I'm looking for both Ph.D. and industrial opening starting from July 2026.
+I'm looking for both Ph.D. and industrial openings starting from July 2026.
