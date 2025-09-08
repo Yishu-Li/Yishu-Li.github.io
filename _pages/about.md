@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Graduate Researcher @ [BrainGate Team](https://www.braingate.org), [Brown University](https://www.brown.edu)
+subtitle: Graduate Researcher @ <a href="https://www.braingate.org">BrainGate Team</a>, <a href="https://www.brown.edu">Brown University</a>
 
 profile:
   align: left
@@ -17,12 +17,12 @@ social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  scrollable: false # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 

@@ -1,5 +1,5 @@
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+## 臭嘴(chòu zuǐ), Stinky Mouth  
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Chou Zui adopted me as her feeder in 2024, when I was working in Shanghai. She is the greatest cat of all time (GOAT).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+She never scratches anyone and doesn't pee or poo in places she shouldn't. She's friendly to everyone, even strangers. Chou Zui loves to sleep next to me, watch Premier League matches with me in the middle of the night, and eat my Lay's potato chips.
