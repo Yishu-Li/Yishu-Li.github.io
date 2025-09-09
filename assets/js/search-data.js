@@ -41,6 +41,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/hidden-dynamic-inference/";
           
         },
+      },{id: "post-improve-gaussian-naive-bayes-decoders-using-principal-component-analysis",
+        
+          title: "Improve Gaussian Naive Bayes decoders using Principal Component Analysis",
+        
+        description: "This is my DATA 2060 Machine Learning final project at Brown",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/PCA-GNB/";
+          
+        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
