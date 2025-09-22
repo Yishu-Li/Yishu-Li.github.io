@@ -3,7 +3,7 @@ layout: post
 title: "BG Deep Science: Hidden Dynamic Inference Based on Neural Manifolds"
 date: 2025-08-21 12:00:00
 description: This is the precentation I gave on 2025.08.21 on BrainGate Deep Science meeting.
-tags: NeuralManifolds AutoEncoder BCI
+tags: Manifolds AutoEncoder BCI MachineLearning
 categories: Presentation
 thumbnail: assets/img/deep_science_hidden_dynamic_inference/manifold.jpg
 images:
@@ -90,7 +90,7 @@ images:
 
   <swiper-slide>
     {% include figure.liquid loading="eager" path="assets/img/deep_science_hidden_dynamic_inference/6.JPG" class="img-fluid" %}
-    <p class="caption mt-3" style="text-align: left; font-size: 1.5em;"> 
+    <p class="caption mt-3" style="text-align: left; font-size: 1.5em;">
     Now, after we learned about LFADS, let’s look at a new model just published based on LFADS from Emory. The model NoMAD uses LFADS to infer the neural dynamics of the neural data from different sessions. The main idea is to use another alignment network to align the LFADS inferred neural dynamics on day 0 and day K, and then decode using the behavior decoder trained on day 0.
     <br><br>
     The LFADS model is fixed and no longer updates after day 0 when it was first trained. On day K, only the read-in network and an alignment network were trained. To make sure the distribution of neural dynamics on day 0 and day K is aligned, the model needs to minimize the KL divergence between the factor distribution on day 0 and day K, while also minimizing the reconstruction loss on day K.
@@ -103,7 +103,7 @@ images:
 
   <swiper-slide>
     {% include figure.liquid loading="eager" path="assets/img/deep_science_hidden_dynamic_inference/7.JPG" class="img-fluid" %}
-    <p class="caption mt-3" style="text-align: left; font-size: 1.5em;"> 
+    <p class="caption mt-3" style="text-align: left; font-size: 1.5em;">
     We introduced the LFADS to infer the neural dynamics using the RNN generator model. Here’s another model called DFINE, designed by Maryam’s lab, which uses a linear dynamic function, a Kalman filter, to model the neural dynamics.
     <br><br>
     The main idea of DFINE is to use an auto-encoder to map the neural data to a non-linear manifold where the dynamics can be linearly modelled. It can be considered as a state-space model with linear state dynamics and a non-linear state-observation transformation. The equation on the right is the dynamic function of the DFINE model; f_theta and f_phi are the encoder and decoder.
@@ -118,7 +118,7 @@ images:
 
   <swiper-slide>
     {% include figure.liquid loading="eager" path="assets/img/deep_science_hidden_dynamic_inference/8.JPG" class="img-fluid" %}
-    <p class="caption mt-3" style="text-align: left; font-size: 1.5em;"> 
+    <p class="caption mt-3" style="text-align: left; font-size: 1.5em;">
     The inference, filter, and smooth processes are all linear in the DFINE model by using the Kalman Filter, which makes DFINE require much less computing resource to infer data.
     <br><br>
     As you can see on the left, for real-time filtering or inferring, when a new neural observation sample comes in, the manifold factor a_t can be inferred using the encoder. This manifold observation a_t is used to estimate the current state x_t together with the last state x_(t-1).
@@ -129,7 +129,7 @@ images:
 
   <swiper-slide>
     {% include figure.liquid loading="eager" path="assets/img/deep_science_hidden_dynamic_inference/9.JPG" class="img-fluid" %}
-    <p class="caption mt-3" style="text-align: left; font-size: 1.5em;"> 
+    <p class="caption mt-3" style="text-align: left; font-size: 1.5em;">
     After learning all these models, I want to talk about my current work, Meta-KF. This work can be understood from two points of view: the meta-learning POV and the neural manifold state-space model POV. I will mainly talk about the latter one because this is the topic today.
     <br><br>
     Meta-KF can be considered as a simplified version of DFINE. Instead of decoding the behavior data from dynamic factors, the Meta-KF model takes behavior kinematics as the internal state x.
