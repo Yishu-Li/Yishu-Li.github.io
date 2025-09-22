@@ -41,6 +41,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/hidden-dynamic-inference/";
           
         },
+      },{id: "post-neuranil-a-meta-learning-framework-for-brain-to-test-phoneme-decoding",
+        
+          title: "NeurANIL: A Meta-Learning Framework for Brain-to-Test Phoneme Decoding",
+        
+        description: "CSCI 1470 final project at Brown",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/NeurANIL/";
+          
+        },
       },{id: "post-improve-gaussian-naive-bayes-decoders-using-principal-component-analysis",
         
           title: "Improve Gaussian Naive Bayes decoders using Principal Component Analysis",
