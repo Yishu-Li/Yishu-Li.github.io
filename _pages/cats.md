@@ -21,4 +21,10 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Timmy trying to figure out how the lamp works</p>
+  - align: right
+    image: losty.jpg
+    content: about_losty.md
+    image_circular: false
+    more_info: >
+      <p>Losty sleeping on my mom's coach.</p>
 ---
