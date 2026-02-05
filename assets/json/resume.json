@@ -117,68 +117,154 @@
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Programming",
+      "level": "",
+      "icon": "💻",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "🐍 Python",
+        "MATLAB",
+        "Java",
+        "C#",
+        "🐧 Linux",
+        "🔥 PyTorch",
+        "Tensorflow",
+        "SciKit-learn",
+        "Git",
+        "WandB"
+      ]
+    },
+    {
+      "name": "Software",
+      "level": "",
+      "icon": "📐",
+      "keywords": [
+        "Microsoft Office",
+        "AutoCAD",
+        "SolidWorkds",
+        "OfflineSorter",
+        "NeuroExplorer",
+        "FreeSurfer"
+      ]
+    },
+    {
+      "name": "Biosignal Processing",
+      "level": "",
+      "icon": "🧠",
+      "keywords": [
+        "Spike train",
+        "Local field potential",
+        "MRI",
+        "EEG",
+        "fNIRS"
+      ]
+    },
+    {
+      "name": "Analytic Skills",
+      "level": "",
+      "icon": "🔬",
+      "keywords": [
+        "Signal processing",
+        "Deep learning",
+        "Temporal data analysis",
+        "Network analysis",
+        "Data visualization",
+        "3D modeling and printing",
+        "Clinical communication",
+        "Clinical experiment design and conduction"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Mandarin",
       "fluency": "Native speaker",
-      "icon": ""
+      "icon": "🐉"
     },
     {
       "language": "English",
       "fluency": "Fluent",
-      "icon": ""
+      "icon": "🇺🇸🇬🇧"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Elementory",
+      "icon": "🌮"
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Sports",
+      "icon": "",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "The REAL football ⚽",
+        "Climbing 🧗‍",
+        "Lifting 🏋️‍",
+        "Swimming 🏊‍"
+      ]
+    },
+    {
+      "name": "Readin and Watching",
+      "icon": "",
+      "keywords": [
+        "Literatures",
+        "Movies",
+        "Comics and anime"
+      ]
+    },
+    {
+      "name": "Tech",
+      "icon": "",
+      "keywords": [
+        "DIY",
+        "3D Printing",
+        "Linux"
       ]
     }
   ],
   "references": [
     {
-      "name": "Professor John Doe",
+      "name": "Professor John Simeral",
       "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "Associate Professor of Engineering (Research) at Brown University, my advisor."
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
+      "name": "Communication Restoration for an Advanced ALS Patient",
+      "summary": "Designed and implemented iBCI decoders for restoring communication in stroke and ALS patients, utilizing Machine Learning and Deep Learning techniques. The system has been the only communication method for more than 6 months. Enabled communication for an advanced ALS patient with a multiclass fast-deploy Gaussian Naïve Bayes iBCI decoder, reaching over 90% accuracy for 5-way online decoding. Developed a sleep detection method for locked-in ALS patients based on the LFP signal, reaching over 90% accuracy.",
       "highlights": [
-        "Quantum Teleportation",
-        "Quantum Cryptography"
+        "Real-time Neural Signal Decoding",
+        "Python",
+        "Machine Learning"
       ],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "startDate": "2024-11-15",
+      "endDate": "Present",
+      "url": "https://braingate.org"
+    },
+    {
+      "name": "Meta-Learning for Stable Long-term iBCI Decoder",
+      "summary": "Improve decoding stability by minimizing the need for recalibration and enabling same-day adaptation, reducing the recalibration time to within 1 minute. Train and evaluate the model on the supercomputer OSCAR for higher running speed.",
+      "highlights": [
+        "Deep learning",
+        "Meta-learning",
+        "PyTorch",
+        "Neural Signal Processing"
+      ],
+      "startDate": "2025-06-01",
+      "endDate": "Present",
+      "url": "https://yishu-li.github.io/blog/2025/hidden-dynamic-inference/"
+    },
+    {
+      "name": "Brain Connectivity Changes in Different Visual States",
+      "summary": "Investigated brain connectivity changes during visual search and recognition processes to better understand the top-down and bottom-up visual pathways and the mechanism of attention. Led the entire project, including building the virtual reality experiment in Unity, conducting clinical experiments, programming the sEEG data analysis pipeline, and performing spike sorting and analysis.",
+      "highlights": [
+        "Brain Network",
+        "Granger Causality",
+        "Clinical Recording",
+        "sEEG"
+      ],
+      "startDate": "2023-07-01",
+      "endDate": "2024-04-01"
     }
   ]
 }
