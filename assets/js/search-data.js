@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "My academic CV.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
         },{id: "nav-meow-3",
           title: "Meow:3",
           description: "other members of the lab",
@@ -70,6 +77,9 @@ ninja.data = [{
               window.location.href = "/books/the_godfather/";
             },},{id: "news-i-joined-braingate-team-and-started-my-research-in-intracortical-brain-computer-interfaces",
           title: 'I joined BrainGate team and started my research in intracortical Brain-computer interfaces! 🧠🦾...',
+          description: "",
+          section: "News",},{id: "news-i-began-my-ta-role-for-engn-2520-pattern-recognition-and-machine-learning-at-brown-in-spring-2026",
+          title: 'I began my TA role for ENGN 2520: Pattern Recognition and Machine Learning...',
           description: "",
           section: "News",},{
         id: 'social-email',
