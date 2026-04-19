@@ -3,6 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: Graduate Researcher @ <a href="https://www.braingate.org">BrainGate Team</a>, <a href="https://www.brown.edu">Brown University</a>
+brain_background: true
 
 profile:
   align: left

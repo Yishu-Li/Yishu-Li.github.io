@@ -187,6 +187,11 @@
 <!-- Jupyter Open External Links New Tab -->
 <script defer src="{{ '/assets/js/jupyter_new_tab.js' | relative_url | bust_file_cache }}"></script>
 
+{% if page.brain_background %}
+  <!-- Cortical-mesh background -->
+  <script defer src="{{ '/assets/js/brain-mesh.js' | relative_url | bust_file_cache }}"></script>
+{% endif %}
+
 <!-- Badges -->
 {% if site.enable_publication_badges.altmetric %}
   <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>

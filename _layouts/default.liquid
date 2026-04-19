@@ -16,7 +16,11 @@
   </head>
 
   <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %} {% if page.brain_background %}brain-background-page{% endif %}">
+    {% if page.brain_background %}
+      <canvas id="brain-background" aria-hidden="true"></canvas>
+    {% endif %}
+
     <!-- Header -->
     {% include header.liquid %}
 
