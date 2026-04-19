@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cats/";
           },
-        },{id: "post-bg-deep-science-hidden-dynamic-inference-based-on-neural-manifolds",
+        },{id: "post-astrocyte-regulation-confines-representational-drift-to-null-space",
+        
+          title: "Astrocyte Regulation Confines Representational Drift to Null-space",
+        
+        description: "A NEUR 1440 paper on how astrocytic regulation may stabilize neural population manifolds and support long-term iBCIs.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/astrocyte-regulation-null-space/";
+          
+        },
+      },{id: "post-bg-deep-science-hidden-dynamic-inference-based-on-neural-manifolds",
         
           title: "BG Deep Science: Hidden Dynamic Inference Based on Neural Manifolds",
         
