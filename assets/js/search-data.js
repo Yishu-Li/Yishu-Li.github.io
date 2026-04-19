@@ -59,9 +59,9 @@ ninja.data = [{
             window.location.href = "/blog/2025/hidden-dynamic-inference/";
           
         },
-      },{id: "post-neuranil-a-meta-learning-framework-for-brain-to-test-phoneme-decoding",
+      },{id: "post-neuranil-a-meta-learning-framework-for-brain-to-text-phoneme-decoding",
         
-          title: "NeurANIL: A Meta-Learning Framework for Brain-to-Test Phoneme Decoding",
+          title: "NeurANIL: A Meta-Learning Framework for Brain-to-Text Phoneme Decoding",
         
         description: "CSCI 1470 final project at Brown",
         section: "Posts",
