@@ -92,6 +92,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-began-my-ta-role-for-engn-2520-pattern-recognition-and-machine-learning-at-brown-in-spring-2026",
           title: 'I began my TA role for ENGN 2520: Pattern Recognition and Machine Learning...',
           description: "",
+          section: "News",},{id: "news-i-successfully-defended-my-master-s-thesis-at-brown-university-long-term-stable-brain-computer-interface-for-function-restoration-with-guidance-from-my-advisor-dr-john-simeral",
+          title: 'I successfully defended my master’s thesis at Brown University, Long-term Stable Brain-Computer Interface...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
