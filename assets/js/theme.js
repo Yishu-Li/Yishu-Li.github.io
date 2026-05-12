@@ -1,5 +1,7 @@
 // Has to be in the head tag, otherwise a flicker effect will occur.
 
+const DEFAULT_THEME_SETTING = "system";
+
 // Toggle through light, dark, and system theme settings.
 let toggleThemeSetting = () => {
   let themeSetting = determineThemeSetting();
@@ -256,7 +258,7 @@ let transTheme = () => {
 let determineThemeSetting = () => {
   let themeSetting = localStorage.getItem("theme");
   if (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") {
-    themeSetting = "system";
+    themeSetting = DEFAULT_THEME_SETTING;
   }
   return themeSetting;
 };

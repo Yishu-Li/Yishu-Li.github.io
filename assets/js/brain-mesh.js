@@ -51,6 +51,12 @@
     uniform vec3 uCrown;
     uniform vec3 uSulcus;
     uniform vec3 uLight;
+    uniform float uHighlightDiffuse;
+    uniform float uHighlightFacing;
+    uniform float uGrooveStrength;
+    uniform float uShadeBase;
+    uniform float uShadeDiffuse;
+    uniform float uShadeFacing;
     uniform vec2 uMouseBrain;
     uniform float uActivityActive;
     uniform float uActivityRadius;
@@ -107,14 +113,14 @@
       vec3 normal = normalize(vNormal);
       float diffuse = max(dot(normal, normalize(uLight)), 0.0);
       float facing = clamp(normal.z * 0.5 + 0.5, 0.0, 1.0);
-      float highlight = smoothstep(0.18, 0.98, diffuse) * 0.18 + facing * 0.08;
+      float highlight = smoothstep(0.18, 0.98, diffuse) * uHighlightDiffuse + facing * uHighlightFacing;
       vec3 color = mix(uBase, uCrown, highlight);
 
       float wall = 1.0 - smoothstep(0.32, 0.86, facing);
-      float groove = clamp(wall * 0.18, 0.0, 0.18);
+      float groove = clamp(wall * uGrooveStrength, 0.0, uGrooveStrength);
       color = mix(color, uSulcus, groove);
 
-      float shade = 0.91 + diffuse * 0.06 + facing * 0.03;
+      float shade = uShadeBase + diffuse * uShadeDiffuse + facing * uShadeFacing;
       color *= shade;
 
       float activity = activityField(vBrainXYZ, uTime);
@@ -142,11 +148,23 @@
           base: [0.1, 0.5, 0.56],
           crown: [0.22, 0.64, 0.66],
           sulcus: [0.05, 0.34, 0.4],
+          highlightDiffuse: 0.18,
+          highlightFacing: 0.08,
+          grooveStrength: 0.18,
+          shadeBase: 0.91,
+          shadeDiffuse: 0.06,
+          shadeFacing: 0.03,
         }
       : {
-          base: [0.0, 0.36, 0.42],
-          crown: [0.04, 0.47, 0.5],
-          sulcus: [0.0, 0.2, 0.29],
+          base: [0.09, 0.42, 0.47],
+          crown: [0.2, 0.58, 0.61],
+          sulcus: [0.0, 0.13, 0.23],
+          highlightDiffuse: 0.22,
+          highlightFacing: 0.1,
+          grooveStrength: 0.32,
+          shadeBase: 0.86,
+          shadeDiffuse: 0.11,
+          shadeFacing: 0.05,
         };
   }
 
@@ -268,6 +286,12 @@
     gl.uniform3fv(gl.getUniformLocation(program, "uCrown"), colors.crown);
     gl.uniform3fv(gl.getUniformLocation(program, "uSulcus"), colors.sulcus);
     gl.uniform3fv(gl.getUniformLocation(program, "uLight"), light);
+    gl.uniform1f(gl.getUniformLocation(program, "uHighlightDiffuse"), colors.highlightDiffuse);
+    gl.uniform1f(gl.getUniformLocation(program, "uHighlightFacing"), colors.highlightFacing);
+    gl.uniform1f(gl.getUniformLocation(program, "uGrooveStrength"), colors.grooveStrength);
+    gl.uniform1f(gl.getUniformLocation(program, "uShadeBase"), colors.shadeBase);
+    gl.uniform1f(gl.getUniformLocation(program, "uShadeDiffuse"), colors.shadeDiffuse);
+    gl.uniform1f(gl.getUniformLocation(program, "uShadeFacing"), colors.shadeFacing);
     gl.uniform2f(gl.getUniformLocation(program, "uMouseBrain"), brain[0], brain[1]);
     gl.uniform1f(gl.getUniformLocation(program, "uActivityActive"), mouse.active ? 1 : 0);
     gl.uniform1f(gl.getUniformLocation(program, "uActivityRadius"), width < 640 ? 0.065 : 0.05);
