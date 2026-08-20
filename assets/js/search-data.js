@@ -95,6 +95,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-successfully-defended-my-master-s-thesis-long-term-stable-brain-computer-interface-for-function-restoration-and-received-brown-university-s-school-of-engineering-2025-outstanding-thesis-award-master-s-i-am-deeply-grateful-to-the-braingate-team-especially-my-advisor-dr-john-simeral-and-dr-hadar-levi-aharoni-award-page",
           title: 'I successfully defended my master’s thesis, Long-term Stable Brain-Computer Interface for Function Restoration,...',
           description: "",
+          section: "News",},{id: "news-2026-deecamp-bci-track-champion-our-team-took-1st-place-in-the-brain-computer-interface-track-at-deecamp-2026-working-on-fusion-modeling-of-weakly-paired-eeg-fmri-data-we-built-a-multi-modality-eeg-fmri-foundation-model-to-bridge-high-temporal-and-high-spatial-resolution-brain-signals-advancing-ai-driven-neuroscience-research-under-the-instruction-from-the-ultrasound-bci-company-gestala-news-link",
+          title: '🏆 2026 DeeCamp – BCI Track Champion Our team took 1st place in...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
