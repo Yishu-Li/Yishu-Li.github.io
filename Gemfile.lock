@@ -68,6 +68,7 @@ GEM
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
+    erb (6.0.4)
     eventmachine (1.2.7)
     execjs (2.10.0)
     fast-stemmer (1.0.2)
@@ -289,6 +290,7 @@ PLATFORMS
 DEPENDENCIES
   classifier-reborn
   css_parser
+  erb
   feedjira
   httparty
   jekyll

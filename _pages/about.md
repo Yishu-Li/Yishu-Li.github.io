@@ -30,5 +30,3 @@ latest_posts:
 Hi, this is Yishu. I'm a master's student in Biomedical Engineering at Brown University, working with the BrainGate team on intracortical Brain-computer interfaces (iBCIs) under the supervision of [Dr. John Simeral](https://vivo.brown.edu/display/jsimeral). I graduated from the Biomedical Engineering department in the [Southern University of Science and Technology](https://www.sustech.edu.cn) (SUSTech) in June, 2023. I also worked as an algorithm intern at the [Shanghai Institute of Microsystem and Information Technology, Chinese Academy of Sciences](www.sim.cas.cn) between 2023 and 2024.
 
 I'm currently working on designing long-term stable brain-computer interface decoding algorithms for function restorations. I'm generally interested in neuroscience, deep learning, and dynamical systems. More specifically, I'm interested in developing plug-and-play (PNP) neural decoders that are robust to neural non-stationarity by combining the neuroscience knowledge (such as neural dynamics) and engineering methods (such as meta-learning, foundation models).
-
-I'm looking for both Ph.D. and industrial openings starting from July 2026.
